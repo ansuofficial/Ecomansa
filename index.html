@@ -38,6 +38,11 @@
     <![endif]-->
 
     <style>
+
+        body {
+            background: #2d3032;
+        }
+
         .lm-btn {
             background: #3b3b3b
         }
@@ -58,11 +63,41 @@
             max-width: 4rem;
         }
 
+        .icons-con {
+            display: flex;
+            align-items: center;
+        }
+
+        .icons-con1 {
+            display: flex;
+            align-items: center;
+            flex-direction: row-reverse;
+        }
+
+        .icons-con i,.icons-con1 i{
+            font-size: 12rem;
+            color: #eea412
+        }
+
        @media screen and (max-width: 656px) {
          .box-slider .carousel-control-prev,
          .box-slider .carousel-control-next{
             display: none;
         }
+       }
+
+       .gallery {
+        width: 100%;
+        height: 100vh;
+        background: aliceblue;
+       }
+
+       .Gallery-container > div {
+        width: 20%;
+       }
+
+       .Gallery-container > div img {
+        width: 100%;
        }
 
     </style>
@@ -140,7 +175,7 @@
 								<div class="col-md-12 col-sm-12 text-center">
 									<div class="big-tagline">
 										<h2><strong>Ecomansa </strong> education College</h2>
-										<p class="lead">With Landigoo responsive landing page template, you can promote your all hosting, domain and email services. </p>
+										<p class="lead">With Landigoo responsive landing page template, you can promote your all hosting, domain and email services. <p>
 											<a href="contact.html" class="hover-btn-new"><span>Contact Us</span></a>
 											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 											<a href="about.html" class="hover-btn-new"><span>Read More</span></a>
@@ -214,18 +249,19 @@
                 </div>
             </div><!-- end title -->
         
-            <div class="row align-items-center border"
+            <div class="row align-items-center"
             >
 				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12"
-                style="border: 2px solid yellow;
-                height: 21rem
-                "
-                >
-                   <h1>hi</h1>
+                style="box-shadow: 2px 2px 5px rgb(102, 102, 102);
+                height: 21rem">
+                <h1>Mission</h1>
+                   <div class="icons-con">
+                    <i class="flaticon-achievement"></i>
+                    <p>Providing representation, guidance and services to enhance students’ academic experiences and promote their interests.</p>
+                   </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="message-box">
-                        <h4>2018 BEST SmartEDU education school</h4>
                         <h2>Welcome to SmartEDU education school</h2>
                         <p>ECOMANSA is a student association, also known as a student organization, which is a group formed by students with common interests and goals. ECOMANSA is typically found at the University of The Gambia, in the School of Business and Public Administration. The purpose of ECOMANSA is to provide a platform for students to engage in activities related to their interests, develop new skills, foster social connections, and contribute to the overall student experience.</p>
 
@@ -237,7 +273,7 @@
                 </div><!-- end col -->
 			</div>
 
-			<div class="row align-items-center border">
+			<div class="row align-items-center">
 				
 				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="message-box">
@@ -253,19 +289,22 @@
                 </div><!-- end col -->
 <!-- <i class="flaticon-achievement"></i> -->
                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12"
-                style="border: 2px solid yellow;
-                height: 21rem
-                "
-                >
-                   <h1>hi</h1>
+                style="box-shadow: 2px 2px 5px rgb(102, 102, 102);
+                height: 21rem">
+                <h1>Vission</h1>
+                   <div class="icons-con1">
+                    <i class="flaticon-eye"></i>
+                    <p>promoting knowledge, leadership, innovation, and patriotism for national development.
+To inspire and empower students to become lifelong learners, critical thinkers, and compassionate leaders who positively impact their communities and the world.</p>
+                   </div>
                 </div>
 				
             </div><!-- end row -->
         </div><!-- end container -->
     </div><!-- end section -->
 
-    <section class="section lb page-section" style="border: 2px solid green; padding: 0;">
-		<div class="container" style="border: 2px solid green;">
+    <section class="section lb page-section" style="padding: 0;">
+		<div class="container">
 			 <div class="section-title row text-center">
                 <!-- <div class="col-md-8 offset-md-2">
                     <h3>Upcoming events and activities</h3>
@@ -346,7 +385,7 @@
 		</div>
 	</section>
 
-	<div class="section cl">
+	<div class="section cl" style="padding: 0 14rem; margin: 2rem 0; height: 14%">
 		<div class="container">
 			<div class="row text-left stat-wrap">
 				<div class="col-md-4 col-sm-4 col-xs-12">
@@ -364,13 +403,31 @@
 				<div class="col-md-4 col-sm-4 col-xs-12">
 					<span data-scroll class="global-radius icon_wrap effect-1 alignleft"><i class="flaticon-years"></i></span>
 					<p class="stat_count">55</p>
-					<h3>Years Completed</h3>
+					<h3>Years</h3>
 				</div><!-- end col -->
 			</div><!-- end row -->
 		</div><!-- end container -->
 	</div><!-- end section -->
 
     <!--  -->
+
+    <section class="gallery">
+        <h1>Our Gallery</h1>
+        <div class="Gallery-container border" style="display: flex; flex-wrap: wrap; justify-content: center;">
+            <div>
+                <img src="images/427805-847x440.jpg" alt="" style="width: 100%">
+            </div>
+             <div>
+                <img src="images/427805-847x440.jpg" alt="">
+            </div>
+             <div>
+                <img src="images/427805-847x440.jpg" alt="">
+            </div>
+             <div>
+                <img src="images/427805-847x440.jpg" alt="">
+            </div>
+        </div>
+    </section>
 
     <div id="testimonials" class="parallax section db parallax-off" style="background-image:url('images/parallax_04.jpg'); padding: 12px">
         <div class="container">
