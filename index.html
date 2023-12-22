@@ -88,16 +88,37 @@
 
        .gallery {
         width: 100%;
-        height: 100vh;
         background: aliceblue;
        }
 
+       .gallery h1 {
+        text-align: center;
+        font: 900;
+        font-size: 40px;
+        padding: 2rem;
+       }
+
        .Gallery-container > div {
-        width: 20%;
+        padding: .5rem;
+        width: 40%;
        }
 
        .Gallery-container > div img {
+        border-radius: 5px;
         width: 100%;
+       }
+
+       .bc {
+          display: flex;
+          justify-content: center;
+       }
+
+       .Gallery-container button {
+           outline: none;
+           background: #eea412;
+           border-radius: 25px;
+           border: none;
+        padding: 0.5rem 1rem;
        }
 
     </style>
@@ -252,7 +273,7 @@
             <div class="row align-items-center"
             >
 				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12"
-                style="box-shadow: 2px 2px 5px rgb(102, 102, 102);
+                style="box-shadow: 2px 2px 5px rgb(102, 102, 102);  border-radius: 5px;
                 height: 21rem">
                 <h1>Mission</h1>
                    <div class="icons-con">
@@ -289,11 +310,11 @@
                 </div><!-- end col -->
 <!-- <i class="flaticon-achievement"></i> -->
                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12"
-                style="box-shadow: 2px 2px 5px rgb(102, 102, 102);
+                style="box-shadow: 2px 2px 5px rgb(102, 102, 102); border-radius: 5px;
                 height: 21rem">
                 <h1>Vission</h1>
                    <div class="icons-con1">
-                    <i class="flaticon-eye"></i>
+                    <i class="flaticon-achievement"></i>
                     <p>promoting knowledge, leadership, innovation, and patriotism for national development.
 To inspire and empower students to become lifelong learners, critical thinkers, and compassionate leaders who positively impact their communities and the world.</p>
                    </div>
@@ -415,7 +436,7 @@ To inspire and empower students to become lifelong learners, critical thinkers, 
         <h1>Our Gallery</h1>
         <div class="Gallery-container border" style="display: flex; flex-wrap: wrap; justify-content: center;">
             <div>
-                <img src="images/427805-847x440.jpg" alt="" style="width: 100%">
+                <img src="images/WhatsApp Image 2023-12-07 at 15.06.27.jpeg" alt="">
             </div>
              <div>
                 <img src="images/427805-847x440.jpg" alt="">
@@ -424,7 +445,10 @@ To inspire and empower students to become lifelong learners, critical thinkers, 
                 <img src="images/427805-847x440.jpg" alt="">
             </div>
              <div>
-                <img src="images/427805-847x440.jpg" alt="">
+                <img src="images/25411866467_8d8077fdba_b.jpg" alt="">
+            </div>
+            <div class="bc">
+                <button>Show more</button>
             </div>
         </div>
     </section>
